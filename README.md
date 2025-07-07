@@ -1,3 +1,4 @@
+# ⚠️ STILL IN PROGRESS ⚠️
 # Mensa-Mates
 
 **Mensa-Mates** is a social web platfrom where students can rate, comment on, and explore university cafeteria (mensa) meals.
