@@ -1,31 +1,33 @@
-# Ignore virtual environment
-venv/
-ENV/
-env/
-.venv/
-
-# Python cache
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
-*.pyo
+*$py.class
 
-# SQLite database 
-*.db
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
 
-# Environment variables
+# Environment variables / secrets
 .env
 
-# VSCode or other editor settings
-.vscode/
-.idea/
-
-# macOS system files
+# macOS
 .DS_Store
 
-# Log files
-*.log
+# Windows
+Thumbs.db
 
-# Coverage/test reports
-htmlcov/
-coverage.xml
-*.cover
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# IDEs/editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Pygame image/sound cache (if you generate any during runtime)
+*.log
+*.tmp
