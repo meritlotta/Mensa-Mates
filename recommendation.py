@@ -1,5 +1,5 @@
 from helper import load_user_rankings
-from menu import get_today_menu  # assuming your menu code is saved in menu.py
+from menu import get_today_menu
 
 def get_recommendation(username):
     rankings = load_user_rankings(username)
@@ -7,7 +7,7 @@ def get_recommendation(username):
 
     # Filter out invalid rankings
     valid_rankings = [r for r in rankings if r.get("ranking") and r["ranking"].isdigit()]
-    valid_rankings.sort(key=lambda x: int(x["ranking"]), reverse=True)  # highest ranking first
+    valid_rankings.sort(key=lambda x: int(x["ranking"]), reverse=True)
 
     # Find the highest-ranked item that is on today's menu
     for entry in valid_rankings:
