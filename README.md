@@ -7,8 +7,8 @@ The goal is to make dining more interactiveand fun by sharing experiences with f
 ## (Planned) Features
 - User registration and login system
 - Rate meals (0-22 scale)
-- See what your friends rated
+- Settings
 - Browse daily menus
-- List of the best meals ever!
+- List of your favourite meals!
 
 ![MensaMates Demo](media/image.gif)
