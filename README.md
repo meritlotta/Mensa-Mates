@@ -11,4 +11,4 @@ The goal is to make dining more interactiveand fun by sharing experiences with f
 - Browse daily menus
 - List of the best meals ever!
 
-![MensaMates Demo](media/image.gif)
+![MensaMates Demo](media/mainpage.png)
