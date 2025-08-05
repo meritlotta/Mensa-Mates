@@ -82,23 +82,23 @@ user_data = {
 }
 
 # user image
-user_image = pygame.image.load("user.PNG")
+user_image = pygame.image.load("media/user.PNG")
 user_image = pygame.transform.smoothscale(user_image, (80, 80))
 user_rect = user_image.get_rect(topleft=(1050, 30))
 
-setting_image = pygame.image.load("settings.png")
+setting_image = pygame.image.load("media/settings.png")
 setting_image = pygame.transform.smoothscale(setting_image, (80, 80))
 setting_rect = setting_image.get_rect(topleft=(1050, 150))
 
 profile_open = False
 
 # chart image
-chart_image = pygame.image.load("charts.PNG")
+chart_image = pygame.image.load("media/charts.PNG")
 chart_image = pygame.transform.smoothscale(chart_image, (80, 80))
 chart_rect = chart_image.get_rect(topleft=(1050, 270))
 
 # notifications image
-news_image = pygame.image.load("news.PNG")
+news_image = pygame.image.load("media/news.PNG")
 news_image = pygame.transform.smoothscale(news_image, (80, 80))
 news_rect = news_image.get_rect(topleft=(1050, 390))
 
