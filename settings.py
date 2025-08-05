@@ -45,7 +45,7 @@ def show_settings(screen):
         value2 = small_font.render(setting2_value, True, (248, 198, 98))
         value3 = small_font.render(setting3_value, True, (248, 198, 98))
 
-        screen.blit(value1, (750, 250))  # you can adjust x/y if needed
+        screen.blit(value1, (750, 250))
         screen.blit(value2, (750, 300))
         screen.blit(value3, (750, 350))
 
