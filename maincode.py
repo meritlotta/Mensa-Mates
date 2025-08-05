@@ -134,7 +134,7 @@ while True:
 
     # Draw purple rectangle same size as menu boxes
     rec_box_x = 100
-    rec_box_y = 580  # slightly higher than your previous 580 to match layout
+    rec_box_y = 580  
     box_width = 900
     box_height = 55
 
